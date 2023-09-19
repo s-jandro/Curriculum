@@ -1,0 +1,81 @@
+
+    .linea-separacion {
+        border-top: 3px solid #171a21; 
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+    }
+/* Estilo para el encabezado */
+    header {
+        text-align: center; /* Centra el contenido del encabezado horizontalmente */
+        background-color: #171a21; /* Color de fondo del encabezado */
+        padding: 30px; /* Espacio alrededor del contenido del encabezado */
+        display: flex; /* Utiliza un diseño flexible */
+        align-items: center; /* Centra los elementos verticalmente */
+    }
+
+    .logo {
+        max-width: 40%; 
+        border-color: #617073;
+        margin: 15px;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+
+   
+    h1 {
+        flex-grow: 1; 
+        margin-bottom: 20px;
+        font-family: candara;
+        font-size: 60pt;
+        color: #7a93ac;
+    }
+
+    h3 {
+        font-family: candara;
+        font-size: 16pt;   
+         
+    }
+
+    #guion{
+        font-family: candara;
+        font-size: 12pt;
+    }
+
+    #guiont{
+        font-family: candara;
+        font-size: 12pt;
+        color: #fff;
+    }
+    #letra{
+        font-family: candara;
+        font-size: 10pt;
+    }
+
+    #subtitulos{
+        font-family: candara;
+        font-size: 11pt;
+    }
+
+    h4{
+        font-family: candara;
+        font-size: 13pt;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .columna1 {
+        flex: 30%;
+        padding: 20px;
+        background-color: #92bcea;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    .columna2 {
+        flex: 70%; /* El 65% restante del ancho disponible */
+        padding: 20px;
+        background-color: #afb3f7;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
