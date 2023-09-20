@@ -7,7 +7,7 @@
 /* Estilo para el encabezado */
     header {
         text-align: center; /* Centra el contenido del encabezado horizontalmente */
-        background-color: #171a21; /* Color de fondo del encabezado */
+        background-color: #DD7230; /* Color de fondo del encabezado */
         padding: 30px; /* Espacio alrededor del contenido del encabezado */
         display: flex; /* Utiliza un diseño flexible */
         align-items: center; /* Centra los elementos verticalmente */
@@ -28,7 +28,7 @@
         margin-bottom: 20px;
         font-family: candara;
         font-size: 60pt;
-        color: #7a93ac;
+        color: #2E1F27;
     }
 
     h3 {
@@ -70,12 +70,13 @@
     .columna1 {
         flex: 30%;
         padding: 20px;
-        background-color: #92bcea;
+        background-color: #F4C95D;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     }
     .columna2 {
         flex: 70%; /* El 65% restante del ancho disponible */
         padding: 20px;
-        background-color: #afb3f7;
+        background-color: #E7E393;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     }
+
